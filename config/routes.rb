@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
 
+  get 'fuck/bitch'
+
   get 'home/index'
   get 'home/project_single'
   get 'home/write_post' => 'home#write_post'
